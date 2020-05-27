@@ -23,9 +23,5 @@ for movie in movies:
         rank = movie.select_one('td:nth-child(1) > img')['alt'] # img 태그의 alt 속성값을 가져오기
         title = a_tag.text                                      # a 태그 사이의 텍스트를 가져오기
         star = movie.select_one('td.point').text                # td 태그 사이의 텍스트를 가져오기
-        doc = {
-            'rank' : rank,
-            'title' : title,
-            'star' : star
-        }
+        doc = {"rank" : rank, "title" : title, "star" : star}
         db.movies.insert_one(doc)
