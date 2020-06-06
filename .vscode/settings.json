@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\min9d\\Desktop\\sparta\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\min9d\\Desktop\\sparta\\venv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }
